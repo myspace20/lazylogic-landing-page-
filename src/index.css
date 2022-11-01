@@ -1,0 +1,620 @@
+*{
+  font-family:ubuntu;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  position: relative;
+  
+}
+
+.App{
+  position: relative;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  background-color: black;
+  z-index: 1;
+}
+
+.desktop-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desktop-links{
+  display: none;
+
+}
+
+.get-in-touch-desktop{
+  display: none;
+}
+
+li{
+  list-style: none;
+}
+
+ .desktop-links a{
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 20px;
+  padding: 10px;
+  color: white;
+}
+
+/* .logo{
+  text-decoration: none;
+  width: 120px;
+  height: 100px;
+} */
+
+.logo-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-h1{
+  font-size: 30px;
+}
+
+.logo-group span{
+  color: #FF1800;
+  align-self:flex-end;
+  font-size: 12px;
+}
+
+.logo-letter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-h1{
+  color: white;
+}
+
+.mobile-links a:hover{
+  background-color: #ff4e00;
+  color: antiquewhite;
+  border: 1px solid #ff4e00;
+  border-radius: 10px;
+}
+.active{
+  color: inherit;
+}
+
+.clients .slider-wrapper img{
+  width: 100px;
+}
+.hero-leading-text span {
+  color: #FF1800;
+}
+
+.process{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.process img{
+  width: 200px;
+}
+
+.home{
+  width: 95%;
+  margin-inline: auto;
+}
+
+.hero-section{
+  padding: 20px 0px;
+}
+
+.hero-leading-text{
+  padding:20px 10px;
+  width: 80%;
+}
+
+.hero-leading-text h2{
+  padding: 10px 0px;
+  font-size: 30px;
+}
+.hero-leading-text p{
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+
+.hero-get-in-touch button{
+  padding: 20px;
+  outline: none;
+  border: 1px solid #FF1800;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #FF1800;
+}
+
+.hero-get-in-touch button:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.hero-image{
+  width: 95%;
+  margin-inline: auto;
+}
+.hero-image img{
+  border-radius: 10px;
+}
+
+.clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+  width: 95%;
+  margin-inline: auto;
+}
+
+.clients h2{
+  font-size: 30px;
+  padding: 10px 0px;
+  text-align: center;
+}
+.clients-list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.client-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0px;
+  box-shadow:  1px 2px 2px lightslategray;
+  border-radius: 10px;
+  border: none;
+}
+
+.client-details img{
+  border-radius: 10px;
+}
+
+.client-details p{
+  font-size: 25px;
+  padding: 18px 0px;
+  text-align: center;
+}
+
+.services{
+  padding: 20px 0px;
+}
+
+.services-get-in-touch{
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.services-get-in-touch button{
+  padding: 20px;
+  outline: none;
+  border: 1px solid #FF1800;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #FF1800;
+}
+
+.services-get-in-touch button:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.services h2{
+  text-align: center;
+}
+
+.servicespage h1{
+  font-size: 30px;
+  text-align: center;
+  padding: 16px 0px;
+}
+
+.service-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.service-list li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.a-day-in-the-life{
+  padding: 30px 0px;
+}
+
+.a-day-in-the-life h2{
+  text-align: center;
+  font-size: 30px;
+  padding: 15px 0px;
+}
+
+.day-in-image img{
+  border-radius: 10px;
+}
+
+.day-in-text {
+  padding: 10px 0px;
+}
+.meet-the-team{
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.meet-the-team button{
+  padding: 20px;
+  outline: none;
+  border: 1px solid #FF1800;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #FF1800;
+}
+
+.meet-the-team button:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.welcome-section{
+  padding: 20px 10px;
+}
+
+.welcome-section h2{
+  padding: 20px 0px;
+  color: #FF1800;
+  
+}
+
+.team-gallery li{
+  padding: 20px 0px;
+  margin: 20px 0px;
+}
+
+.team-gallery li img{
+  border-radius: 10px;
+}
+
+
+.mobile-menu{
+  background-color: black;
+  height: 80vh;
+  width: 100%;
+  position:absolute;
+  top:0;
+  right: 0;
+  z-index: 1;
+}
+
+  
+img{
+  width: 100%;
+}
+
+.mobile-links li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.mobile-links li a{
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.contact-us-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-inline: auto;
+ 
+}
+
+.contact-us-page form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-us-page form input{
+  padding: 20px 0px;
+  width: 100%;
+  font-size: 18px;
+  margin: 20px;
+  outline: none;
+}
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: antiquewhite;
+
+}
+
+footer *{
+  padding: 8px;
+}
+
+footer div{
+  margin: 10px;
+}
+
+.social-media h2{
+  text-align: center;
+}
+
+.social-media a:hover{
+  border: none;
+
+}
+.working-days{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.contact-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.contact-us-page{
+  padding: 40px 0px;
+}
+
+.send-button button{
+  padding: 20px;
+  outline: none;
+  border: 1px solid #FF1800;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #FF1800;
+}
+
+.send-button button:hover{
+  background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.company-profile{
+  padding: 20px 0px;
+}
+
+.profile p{
+  padding: 10px 0px;
+}
+
+.profile h2{
+  padding: 20px 0px;
+  color: #FF1800;
+}
+
+.mission p{
+  padding: 10px 0px;
+}
+
+.mission h2{
+  padding: 20px 0px;
+  color: #FF1800;
+}
+
+.vision p{
+  padding: 10px 0px;
+}
+
+.vision h2{
+  padding: 20px 0px;
+  color: #FF1800;
+}
+
+.carousel-root{
+  width: 85%;
+  margin-inline: auto;
+  z-index: -100;
+  position: inherit;
+}
+
+.processes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.servicepage-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.service-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+
+.service-card p{
+  padding: 15px 0px;
+}
+
+.service-card{
+  width: 80%;
+  border: 1px solid white;
+  padding: 50px 0px;
+  margin: 20px;
+  box-shadow: 1px 1px 2px 2px grey;
+  
+}
+
+@media screen and (min-width:700px){
+  .contact-us-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+
+  .processes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: baseline;
+    gap: 20px;
+  }
+
+  .hero-get-in-touch{
+    display: none;
+  }
+}
+
+
+@media screen and (min-width:900px){
+  
+  
+  .desktop-links{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+  .hero-get-in-touch{
+    display: none;
+  }
+
+  .get-in-touch-desktop{
+    display: block;
+    margin-right: 20px;
+  }
+
+  .get-in-touch-desktop button{
+    padding: 10px;
+    outline: none;
+    border: 1px solid #FF1800;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #FF1800;
+  }
+
+  .get-in-touch-desktop button:hover{
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+  }
+
+  .hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+  .clients-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    gap: 20px;
+  }
+  .service-list{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    place-items: center;
+    gap: 20px;
+  }
+  .a-day-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    align-items: baseline;
+   
+  }
+
+  .team-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+  }
+  .servicepage-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
